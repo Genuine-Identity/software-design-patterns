@@ -30,7 +30,6 @@ export class AppComponent implements OnInit {
     if (event instanceof NavigationError) {
       setTimeout(() => { /*Your Code*/ }, 500);
       console.log("this._loadingBar.stop();");
-
     }
   }
   ngOnInit() {

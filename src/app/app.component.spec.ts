@@ -6,7 +6,6 @@ import { APP_BASE_HREF } from '@angular/common';
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-
     }).compileComponents();
   }));
   it('should create the app', async(() => {
