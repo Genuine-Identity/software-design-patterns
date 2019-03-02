@@ -9,9 +9,9 @@ import { NavigationCancel, Event, NavigationEnd, NavigationError, NavigationStar
 
 export class AppComponent implements OnInit {
   constructor(private router: Router) {
-    // this.router.events.subscribe((event: Event) => {
-    //   this.navigationInterceptor(event);
-    // });
+    this.router.events.subscribe((event: Event) => {
+      this.navigationInterceptor(event);
+    });
   }
 
   ngOnInit() {

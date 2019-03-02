@@ -6,7 +6,61 @@
 					<h3 class="box-title">Singleton</h3>
 				</div>
 				<div class="box-body">
-					Singleton
+					<div class="form-group row">
+						<div class="col-md-2">
+							<button type="submit" class="btn btn-primary btn-block btn-flat"
+								(click)="onSingletonClick1()">Singleton</button>
+						</div>
+						<div class="col-md-2">
+							<button type="submit" class="btn btn-primary btn-block btn-flat"
+								(click)="onSingletonClick2()">Singleton</button>
+						</div>
+						<div class="col-md-2">
+							<button type="submit" class="btn btn-primary btn-block btn-flat"
+								(click)="onCompare()">Compare</button>
+						</div>
+						<div class="col-md-2">
+							<button type="submit" class="btn btn-primary btn-block btn-flat"
+								(click)="onReset()">Reset</button>
+						</div>
+					</div>
+					<div class="row" style="padding-top:10px" *ngIf="show">
+						<div class="col-md-12">
+							singleton1: {{singleton1}}
+						</div>
+						<div class="col-md-12">
+							singleton2: {{singleton2}}
+						</div>
+						<div class="col-md-12">
+							result: {{result}}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="box box-primary">
+				<div class="box-header">
+					<h3 class="box-title">Singleton Temperature Counter</h3>
+				</div>
+				<div class="box-body">
+					<div class="form-group row">
+						<div class="col-md-4">
+							<button type="submit" class="btn btn-primary btn-block btn-flat"
+								(click)="onTemperatureIncrease()">Temperature Increase </button>
+						</div>
+						<div class="col-md-4">
+							<button type="submit" class="btn btn-primary btn-block btn-flat"
+								(click)="onTemperatureDecrease()">Temperature Decrease</button>
+						</div>
+					</div>
+					<div class="row" style="padding-top:10px">
+						<div class="col-md-12">
+							{{counter}}
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
