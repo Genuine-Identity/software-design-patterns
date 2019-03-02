@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MementoComponent } from './memento.component';
+import { MomentoComponent } from './momento.component';
 
-describe('MementoComponent', () => {
-  let component: MementoComponent;
-  let fixture: ComponentFixture<MementoComponent>;
+describe('MomentoComponent', () => {
+  let component: MomentoComponent;
+  let fixture: ComponentFixture<MomentoComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MementoComponent ]
+      declarations: [ MomentoComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MementoComponent);
+    fixture = TestBed.createComponent(MomentoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

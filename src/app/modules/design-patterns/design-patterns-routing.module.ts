@@ -32,6 +32,18 @@ const routes: Routes = [
           show: false
         },
       },
+      {
+        path: 'behavioral-patterns',
+        loadChildren: '../../modules/design-patterns/behavioral-patterns/behavioral-patterns.module#BehavioralPatternsModule',
+        data: {
+          breadcrumbs: 'Behavioral Patterns',
+          title: 'Behavioral Patterns Title',
+          smallText: 'Behavioral Patterns Small Text',
+          isHome: true,
+          icon: 'fa fa-home',
+          show: false
+        },
+      },
     ]
   }
 ];

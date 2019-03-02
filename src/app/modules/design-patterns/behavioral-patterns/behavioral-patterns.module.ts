@@ -7,13 +7,13 @@ import { CommandComponent } from './command/command.component';
 import { InterpreterComponent } from './interpreter/interpreter.component';
 import { IteratorComponent } from './iterator/iterator.component';
 import { MediatorComponent } from './mediator/mediator.component';
-import { MementoComponent } from './memento/memento.component';
 import { ObserverComponent } from './observer/observer.component';
 import { StateComponent } from './state/state.component';
 import { StrategyComponent } from './strategy/strategy.component';
 import { TemplateComponent } from './template/template.component';
 import { VisitorComponent } from './visitor/visitor.component';
 import { BehavioralPatternsRoutingModule } from './behavioral-patterns-routing.module';
+import { MomentoComponent } from './momento/momento.component';
 
 @NgModule({
   declarations: [
@@ -24,12 +24,12 @@ import { BehavioralPatternsRoutingModule } from './behavioral-patterns-routing.m
     InterpreterComponent,
     IteratorComponent,
     MediatorComponent,
-    MementoComponent,
     ObserverComponent,
     StateComponent,
     StrategyComponent,
     TemplateComponent,
-    VisitorComponent
+    VisitorComponent,
+    MomentoComponent
   ],
   imports: [
     CommonModule,
