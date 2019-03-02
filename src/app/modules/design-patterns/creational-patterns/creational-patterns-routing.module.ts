@@ -10,7 +10,8 @@ import { FactoryComponent } from './factory/factory.component';
 const routes: Routes = [
   {
     path: '',
-    component: CreationalPatternsComponent, data: {
+    component: CreationalPatternsComponent,
+    data: {
       breadcrumbs: 'Creational Patterns',
       title: 'Creational Patterns Title',
       smallText: 'Creational Patterns Small Text',

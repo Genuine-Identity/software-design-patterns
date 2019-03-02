@@ -1,17 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
 const routes: Routes = [
-  {
-    path: '',
-    loadChildren: './layout/admin/admin-layout.module#AdminLayoutModule',
-    data: {
-      breadcrumb: 'Home',
-      breadcrumbs: 'Home',
-      isHome: true,
-      icon: 'fa fa-home',
-      show: false
-    },
-  },
+  { path: '', loadChildren: './layout/admin/admin-layout.module#AdminLayoutModule', },
+  { path: '**', redirectTo: '' }
 ];
 
 @NgModule({

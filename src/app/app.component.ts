@@ -9,11 +9,14 @@ import { NavigationCancel, Event, NavigationEnd, NavigationError, NavigationStar
 
 export class AppComponent implements OnInit {
   constructor(private router: Router) {
-    this.router.events.subscribe((event: Event) => {
-      this.navigationInterceptor(event);
-    });
-
+    // this.router.events.subscribe((event: Event) => {
+    //   this.navigationInterceptor(event);
+    // });
   }
+
+  ngOnInit() {
+  }
+
   private navigationInterceptor(event: Event): void {
     if (event instanceof NavigationStart) {
       console.log("this._loadingBar.start();");
@@ -31,7 +34,5 @@ export class AppComponent implements OnInit {
       setTimeout(() => { /*Your Code*/ }, 500);
       console.log("this._loadingBar.stop();");
     }
-  }
-  ngOnInit() {
   }
 }
