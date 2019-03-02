@@ -1,5 +1,5 @@
 import { Component, Input, OnInit, Output, EventEmitter, ViewEncapsulation } from '@angular/core';
-import { AlertType, Alert } from '../../models/all';
+import { AlertType, Alert } from '../../models/index';
 
 @Component({
   selector: 'app-alert',

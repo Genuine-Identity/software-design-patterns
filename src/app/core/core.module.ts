@@ -4,7 +4,7 @@ import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
 import { AuthService } from './services/application/auth.service';
-import { AuthGuardService } from './services/guards/auth-guard.service';
+// import { AuthGuardService } from './services/guards/auth-guard.service';
 import { UserSessionService } from './services/application/user-session.service';
 import { LocalStorageService } from './services/helpers/local-storage.service';
 
@@ -36,7 +36,7 @@ import { EnsureModuleLoadedOnceGuard } from './ensure-module-loaded-once.guard';
     // MessageService,
     // NotificationService,
 
-    AuthGuardService,
+    // AuthGuardService,
     UserSessionService,
     LocalStorageService,
 

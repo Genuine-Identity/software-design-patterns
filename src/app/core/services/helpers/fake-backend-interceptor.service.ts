@@ -32,14 +32,14 @@ export class FakeBackendInterceptor implements HttpInterceptor {
         }
       }
       if (request.url.endsWith('/users') && request.method === 'GET') {
-         return of(new HttpResponse({ status: 200, body: users }));
-         
+        return of(new HttpResponse({ status: 200, body: users }));
+
         if (request.headers.get('Authorization') === 'Bearer fake-jwt-token') {
           return of(new HttpResponse({ status: 200, body: users }));
         } else {
           return throwError({ error: { message: 'Unauthorised' } });
         }
-      
+
       }
       if (request.url.match(/\/users\/\d+$/) && request.method === 'GET') {
         if (request.headers.get('Authorization') === 'Bearer fake-jwt-token') {
@@ -99,7 +99,8 @@ export class FakeBackendInterceptor implements HttpInterceptor {
           return throwError({ error: { message: 'Admin cannot be Updated.' } });
         }
         return of(new HttpResponse({ status: 200 }));
-      }     
+      }
+      /* User Fake backend service Ends here*/
       return next.handle(request);
     }))
       .pipe(materialize())
