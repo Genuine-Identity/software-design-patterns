@@ -6,7 +6,36 @@
 					<h3 class="box-title">Factory</h3>
 				</div>
 				<div class="box-body">
-					Factory
+					<form [formGroup]="form" autocomplete="off">
+						<div class="form-group row">
+							<div class="col-md-6">
+								<label for="contry">Planes</label>
+								<select class="form-control" id="plane" formControlName="plane">
+									<option *ngFor="let plane of planes" [value]="plane.id">{{plane.name}}</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group row">
+							<div class="col-md-2">
+								<button type="submit" class="btn btn-primary btn-block btn-flat"
+									(click)="onFly()">Fly</button>
+							</div>
+							<div class="col-md-2">
+								<button type="submit" class="btn btn-primary btn-block btn-flat"
+									(click)="onLand()">Land</button>
+							</div>
+							<div class="col-md-2">
+								<button type="submit" class="btn btn-primary btn-block btn-flat"
+									(click)="onClick()">Hide Plane</button>
+							</div>
+						</div>
+						<div class="row" style="padding-top:10px" *ngIf="show">
+							<div class="col-md-12">
+								<i class="fa fa-plane fa-4x" aria-hidden="true"> {{plane}} </i>
+								<i class="fa fa-rocket fa-4x" aria-hidden="true"> </i>
+							</div>
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>
