@@ -21,7 +21,7 @@ export class Facade {
     }
     getAccountDetails(id): Observable<any> {
         return this.userHelper.getById(id)
-            .map((res: any) => res)
+            .map((user: any) => user)
             .flatMap((user: any) => {
                 if (!(user == null)) {
                     return Observable.forkJoin(
