@@ -9,12 +9,14 @@ import { User } from '../../../shared/models/index';
 @Injectable()
 export class UserService {
     users: User[];
-    constructor(private http: HttpClient) { }
+    constructor(private http: HttpClient) {
+    }
 
-     
     getById(id: number) {
         return this.http.get(`/users/` + id);
     }
-
-     
+    
+    register(user: User) {
+        return this.http.post(`/users/register`, user);
+    }
 }

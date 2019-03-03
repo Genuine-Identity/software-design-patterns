@@ -1,0 +1,38 @@
+[
+    {
+        "aadharCardNumber": "46019156XXXX",
+        "address": "58 Fake Address, Cleveland Ave. New Britain, CT 06051123434",
+        "dateOfBirth": "27/09/1853",
+        "gender": "Male"
+    },
+    {
+        "aadharCardNumber": "460458715XXXX",
+        "address": "41 Fake Address, Grandrose St. Neenah, WI 54956321",
+        "dateOfBirth": "27/09/1853",
+        "gender": "Male"
+    },
+    {
+        "aadharCardNumber": "460457125XXXX",
+        "address": "41 Fake Address, 645 Elm Street Piedmont, SC 29673",
+        "dateOfBirth": "27/09/1853",
+        "gender": "Male"
+    },
+    {
+        "aadharCardNumber": "241457125XXXX",
+        "address": "41 Fake Address, 4 Tailwater Lane Dearborn Heights, MI 48127",
+        "dateOfBirth": "27/09/1853",
+        "gender": "Male"
+    },
+    {
+        "aadharCardNumber": "241587125XXXX",
+        "address": "41 Fake Address, 9593 South Vermont Ave. Jacksonville Beach, FL 32250",
+        "dateOfBirth": "27/09/1853",
+        "gender": "Male"
+    },
+    {
+        "aadharCardNumber": "243698125XXXX",
+        "address": "41 Fake Address, 4 Riverview St. Doylestown, PA 18901",
+        "dateOfBirth": "27/09/1853",
+        "gender": "Male"
+    }
+]

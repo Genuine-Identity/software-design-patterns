@@ -11,6 +11,7 @@ import { DecoratorComponent } from './decorator/decorator.component';
 import { FacadeComponent } from './facade/facade.component';
 import { FlyweightComponent } from './flyweight/flyweight.component';
 import { ProxyComponent } from './proxy/proxy.component';
+import { FacadeModule } from 'src/app/design-patterns/structural-patterns/facade/facade.module';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { ProxyComponent } from './proxy/proxy.component';
     FormsModule,
     ReactiveFormsModule,
     StructuralPatternsRoutingModule,
+    FacadeModule
   ]
 })
 export class StructuralPatternsModule { }

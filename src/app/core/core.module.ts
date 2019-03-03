@@ -26,11 +26,12 @@ import { JsonWebTokenInterceptorProvider } from './services/helpers/json-web-tok
  * fake backend service: interceptors... ends here
  */
 import { EnsureModuleLoadedOnceGuard } from './ensure-module-loaded-once.guard';
+import { UserService } from './services/application/user.service';
 
 @NgModule({
   providers: [
     AuthService,
-    // UserService,
+    UserService,
     // SkillService,
     // TaskService,
     // MessageService,

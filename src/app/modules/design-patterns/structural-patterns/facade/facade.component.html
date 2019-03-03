@@ -6,7 +6,30 @@
           <h3 class="box-title">Facade</h3>
         </div>
         <div class="box-body">
-          Facade
+          <form [formGroup]="form" autocomplete="off">
+            <div class="form-group row">
+              <div class="col-md-6">
+                <label for="contry">user</label>
+                <select class="form-control" id="user" formControlName="user">
+                  <option *ngFor="let user of (users | async)" [value]="user.id">{{user.firstName + " " + user.lastName }}</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-md-2">
+                <button type="submit" class="btn btn-primary btn-block btn-flat" (click)="onGetInfo()">Get
+                  Information</button>
+              </div>
+              <div class="col-md-2">
+                  <button type="submit" class="btn btn-primary btn-block btn-flat" (click)="onReset()">Reset</button>
+                </div>
+            </div>
+            <div class="row" style="padding-top:10px" *ngIf="show">
+              <div class="col-md-12">
+                <pre>{{data | json}}</pre>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>

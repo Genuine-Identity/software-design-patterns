@@ -5,9 +5,13 @@ export class User {
   lastName: string;
   education: string;
   skills: string[];
-  id?: number;
+  public aadharCardNumber: string;
+  public panCardNumber: string;
+  public passportNumber: string;
+
+  id: string;
   constructor(username: string, password: string, firstName: string, lastName: string,
-    education: string, skills: string[], id?: number) {
+    education: string, skills: string[], id: string) {
     this.id = id;
     this.username = username;
     this.password = password;

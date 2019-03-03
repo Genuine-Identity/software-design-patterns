@@ -1,4 +1,5 @@
 export let Config = {
-  baseUrls: {
+   baseUrls: {
+    api: "./assets/data/"
   }
 };

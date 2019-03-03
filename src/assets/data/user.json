@@ -1,0 +1,100 @@
+[
+    {
+        "username": "intelchiprules@yahoo.co.in",
+        "password": "admin@123",
+        "aadharCardNumber": "46019156XXXX",
+        "panCardNumber": "AEOPNXXXX",
+        "passportNumber": "PAAEOPNXXXX",
+        "firstName": "Girishkumar",
+        "lastName": "Nandgawe",
+        "education": "B.E. Computers",
+        "skills": [
+            "Asp.Net",
+            "C#",
+            "SQL",
+            "Angular 2+",
+            "HTML",
+            "JavaCcript",
+            "Css"
+        ],
+        "id": 1
+    },
+    {
+        "username": "girish.dummy.account.2@DummyAccount.com",
+        "password": "admin@123",
+        "aadharCardNumber": "460458715XXXX",
+        "panCardNumber": "ABCPNXXXX",
+        "passportNumber": "SDABCPNXXXX",
+        "firstName": "Girish",
+        "lastName": "N",
+        "education": "B.E. Computers",
+        "skills": [
+            "Asp.Net",
+            "C#",
+            "SQL",
+            "Angular 2+",
+            "HTML",
+            "JavaCcript",
+            "Css"
+        ],
+        "id": 2
+    },
+    {
+        "username": "girish.dummy.account.3@DummyAccount.com",
+        "password": "admin@123",
+        "aadharCardNumber": "460457125XXXX",
+        "panCardNumber": "XROPNXXXX",
+        "passportNumber": "ZSXROPNXXXX",
+        "firstName": "Ghajini",
+        "lastName": "N",
+        "education": "B.E. Electronics",
+        "skills": [
+            "HTML",
+            "JavaCcript",
+            "Css"
+        ],
+        "id": 3
+    },
+    {
+        "username": "girish.dummy.account.4@DummyAccount.com",
+        "password": "admin@123",
+        "aadharCardNumber": "241457125XXXX",
+        "panCardNumber": "CDAPNXXXX",
+        "passportNumber": "QSCDAPNXXXX",
+        "firstName": "Mogambo",
+        "lastName": "Amrish",
+        "education": "B.E. Electronics",
+        "skills": [
+            "HTML"
+        ],
+        "id": 4
+    },
+    {
+        "username": "girish.dummy.account.5@DummyAccount.com",
+        "password": "admin@123",
+        "aadharCardNumber": "241587125XXXX",
+        "panCardNumber": "AESWXXXX",
+        "passportNumber": "DCAESWXXXX",
+        "firstName": "Amrish",
+        "lastName": "Puri",
+        "education": "B.E. Electronics",
+        "skills": [
+            "HTML"
+        ],
+        "id": 5
+    },
+    {
+        "username": "girish.dummy.account.6@DummyAccount.com",
+        "password": "admin@123",
+        "aadharCardNumber": "243698125XXXX",
+        "panCardNumber": "QWOPNXXXX",
+        "passportNumber": "SWQWOPNXXXX",
+        "firstName": "Shaakal",
+        "lastName": "Kharbanda",
+        "education": "B.E. Electronics",
+        "skills": [
+            "HTML"
+        ],
+        "id": 6
+    }
+]
