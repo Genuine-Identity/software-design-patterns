@@ -1,4 +1,4 @@
-# Software Design Patterns
+# Software Design Patterns 
 Software design patters as per the wiki..
 https://en.wikipedia.org/wiki/Software_design_pattern
 
