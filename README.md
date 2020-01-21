@@ -9,6 +9,7 @@ Creational
     Factory - done
     Builder
     Prototype
+    
 Structural Patterns
     Adapter
     Bridge
@@ -17,6 +18,7 @@ Structural Patterns
     Facade -  done
     Flyweight
     Proxy
+    
 Behavioral Patterns
     Chain of Responsibility
     Command
