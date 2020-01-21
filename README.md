@@ -3,8 +3,8 @@ Software design patters as per the wiki..
 https://en.wikipedia.org/wiki/Software_design_pattern
 
 Creational
-    Creational    
-    Singleton - done    
+        Creational    
+        Singleton - done    
     Abstract Factory     
     Factory - done    
     Builder    
